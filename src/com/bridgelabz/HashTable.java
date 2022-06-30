@@ -19,6 +19,7 @@ public class HashTable {
                 value = value + 1;
             hashtable.put(word, value);
         }
+        hashtable.remove("avoidable");
         System.out.println(hashtable);
 
     }
