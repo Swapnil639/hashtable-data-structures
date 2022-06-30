@@ -6,7 +6,7 @@ public class HashTable {
     public static void main(String[] args) {
         System.out.println("Welcome to hashtable program ");
         Hashtable<String, Integer> hashtable = new Hashtable<>();
-        String message = "To be or not to be";
+        String message = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
 
         String[] messageArray = message.toLowerCase().split(" ");
 
